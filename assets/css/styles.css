@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    color: #343a40;
+  }
+  
+  .lesson-content {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .lesson-content:hover {
+    transform: translateY(-5px);
+  }
+  
+  .animate__animated {
+    animation-duration: 1s;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .navbar {
+    transition: background-color 0.3s;
+  }
+  
+  .navbar.scrolled {
+    background-color: #343a40;
+  }
+  

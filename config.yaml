@@ -1,0 +1,16 @@
+title: "Actividad 1"
+description: "Documentación de las lecciones y desafíos del curso"
+baseurl: "" # Si es para GitHub Pages, puedes dejarlo vacío.
+url: "https://github.com/UrielElias01/Actividad1_Ejecucion_de_tutoriales_fase2.git" # Cambia tu usuario y repositorio.
+theme: minima # Tema básico que puedes personalizar
+markdown: kramdown
+highlighter: rouge
+
+# Navegación personalizada
+nav_links:
+  - name: "Inicio"
+    url: "/"
+  - name: "Lecciones"
+    url: "/lecciones"
+  - name: "Desafíos"
+    url: "/desafios"
